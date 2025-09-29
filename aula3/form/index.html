@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" placeholder="Digite seu nome" required>
+            </div>
+
+            <div>
+                <label for="name">Sobrenome:</label>
+                <input type="text" placeholder="Digite seu sobrenome">
+            </div>
+
+            <div class="container2">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Digite seu email">
+            </div>
+
+            <div>
+                <label for="Em qual stack você gostaria de trabalhar?"></label>
+                <label for="stack">
+                    <input type="radio" value="frontend" name="stack"> FrontEnd
+                    <input type="radio" value="backend" name="stack"> BackEnd
+                    <input type="radio" value="fullstack" name="stack"> FullStack
+                </label>
+            </div>
+            <div>
+                <label for="tecnologias">Senioridade</label>
+                <select name="tecnologias">
+                    <option value="html">Junior</option>
+                    <option value="css">Pleno</option>
+                    <option value="js">Sênior</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Selecione suas tecnologias favoritas</label>
+                <label for="">
+                    <input type="checkbox" value="java" /> Java
+                    <input type="checkbox" value="JavaScript" /> JavaScript
+                    <input type="checkbox" value="php" /> PHP
+                    <input type="checkbox" value="phyton" /> Python
+                </label>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

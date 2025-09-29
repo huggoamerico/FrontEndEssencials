@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+}
+.caixa-principal1{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    
+}
+.subcaixa1-1{
+    background-color:#111;
+    height: 8rem;
+    width: 25%;
+}
+.subcaixa1-2{
+    background-color:#222;
+    height: 8rem;
+    width: 15%;
+}
+.subcaixa1-3{
+    background-color: #333;
+    height: 8rem;
+    width: 60%;
+}
+
+.caixa-principal2{
+    background-color: #ddd;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa2-1{
+    background-color: #bbb;
+    height: 6rm;
+    width: 80%;
+}
+.subcaixa2-2{
+    background-color: #999;
+    height: 6rm;
+    width: 20%;
+}
+
+.caixa-principal3{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.subcaixa3-1{
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    
+}
+.caixa-interno-1{
+    background-color: #ff3d3d;
+    width: 68%;
+    height: 5rem;
+}
+.caixa-interno-2{
+    background-color: #333;
+    width: 32%;
+    height: 5rem;
+}
+
+.subcaixa3-2{
+    background-color: #444;
+}
+.caixa-principal4{
+    background-color: #bbb;
+    height: 6rem;
+    display: flex;
+
+}
+.subcaixa4-1{
+    background-color: #aaa;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa4-2{
+    background-color: #999;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa4-3{
+    background-color: #888;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa4-4{
+    background-color: #777;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa4-5{
+    background-color: #666;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa4-6{
+    background-color: #555;
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+}
+.caixa-principal5{
+    background-color: #111;
+    height: 6rem;
+    display: flex;
+}
+.subcaixa5-1{
+    background-color: #222;
+    height: 6rem;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa5-2{
+    background-color: #333;
+    height: 6rem;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa5-3{
+    background-color: #444;
+    height: 6rem;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa5-4{
+    background-color:#555;
+    height: 6rem;
+    width: 23%;
+    display: flex;
+    flex-direction: row;
+}
+.subcaixa5-5{
+    background-color:#666;
+    height: 6rem;
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+}
+.caixa-principal6{
+    background-color: #ccc;
+    height: 6rem;
+    display: flex;
+}
+.subcaixa6-1{
+    background-color:#bbb;
+    height: 6rem;
+    width: 68%;
+}
+.subcaixa6-2{
+    background-color:#aaa;
+    height: 6rem;
+    width: 32%;
+}
+.caixa-principal7{
+    background-color: #000;
+    height: 6rem;
+    display: flex;
+}
+.subcaixa7-1{
+    background-color:#222;
+    height: 6rem;
+    width: 68%;
+}
+.subcaixa7-2{
+    background-color:#444;
+    height: 6rem;
+    width: 32%;
+}
+.caixa-principal8{
+    background-color: #999;
+    height: 6rem;
+    display: flex;
+}
+.subcaixa8-1{
+    background-color:#888;
+    height: 6rem;
+    width: 68%;
+}
+.subcaixa8-2{
+    background-color:#777;
+    height: 6rem;
+    width: 32%;
+}
+.subcaixa9-1{
+    background-color:#222;
+    height: 6rem;
+    width: 68%;
+}
+.caixa-principal9{
+    background-color:#000;
+    height: 6rem;
+    display: flex;
+}
+.subcaixa9-1{
+    background-color:#222;
+    height: 10rem;
+    width: 68%;
+}
+.subcaixa9-2{
+    background-color:#444;
+    height: 10rem;
+    width: 32%;
+}
